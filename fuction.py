@@ -9,3 +9,6 @@ addition(2,5) # Function called and input two number
 print("\n")
 
 addition(10,100) # same function but result vary on input number.
+
+x = 4 % 2
+print(x)
