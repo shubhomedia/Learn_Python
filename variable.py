@@ -13,7 +13,7 @@ score = 58.10
 print(score, type(score))
 
 #Boolean Type :
-game_on = False;
+game_on = True;
 print(game_on, type(game_on))
 
 #Concatenation
@@ -25,5 +25,10 @@ print('My Future Age will be =',future_age)
 
 new_score = 20.11 + score
 print('New Score is =',new_score)
+
+#Sample Output of all
+
+print("My Name is",name, "i'm ",age," Years old","my game status is",game_on, "and my score is",new_score)
+
 
 
