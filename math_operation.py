@@ -16,3 +16,14 @@ print(type(x))
 z = c / 2
 print(z,type(z))
 
+#Just a new Line
+print("\n")
+
+#Increment
+var1 = 10
+print("Main Value of ",var1)
+
+var1+=1
+print("Increment Value of ",var1)
+
+
