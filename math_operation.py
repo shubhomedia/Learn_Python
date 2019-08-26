@@ -26,4 +26,13 @@ print("Main Value of ",var1)
 var1+=1
 print("Increment Value of ",var1)
 
+#Just a new Line
+print("\n")
+
+#multiple by power
+newnum = 2
+print(newnum**6) #64
+print(newnum**10) # 1024
+
+
 
