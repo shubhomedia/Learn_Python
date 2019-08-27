@@ -15,3 +15,6 @@ print(string1[5:14]) # print start with index of 5 and end with 14 ( a String)
 name_age_status = name + age + status # concatenation of string
 
 print(name_age_status)
+
+multiple_name = 2 * name_age_status # Multiple of String
+print(multiple_name)
