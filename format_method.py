@@ -5,3 +5,8 @@ print("prices: ({x},{y},{z})".format(x = 10,y = 1.50, z = 5))
 print("The {vehicle} had {0} crashes in {1} months".format(5,6, vehicle = 'car'))
 print('{:<20}'.format("text")) # create space after text
 print('{:>20}'.format("text")) # create space before text
+#user define look
+print(""" Hello
+        user this is new look
+        so on
+      """)
