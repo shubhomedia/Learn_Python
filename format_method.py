@@ -10,3 +10,8 @@ print(""" Hello
         user this is new look
         so on
       """)
+
+#same
+print('''
+      hello
+      ''')
