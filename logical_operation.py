@@ -9,3 +9,12 @@ x = True
 y = True
 
 print (x and y) # True
+# new code
+d = 5
+e = 1
+f = False
+g = 'python'
+h = 'some'
+z = not((not(e<=d) and (g>=h)) or f) and 1
+print(z) # 1 for True
+
