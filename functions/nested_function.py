@@ -11,3 +11,12 @@ def outer(a):
     return a
 print(outer(10))
 
+# nested function like loop
+def f(a):
+    def g(b):
+        def h(c):
+            return a * b * c
+        return h
+    return g
+
+print(f(5)(2)(3))
