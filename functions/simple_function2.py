@@ -7,3 +7,10 @@ def myfunc():
 
 #call the function
 myfunc()
+
+# double number
+
+def print_double(x):
+    print(2 * x)
+
+print_double(10) # result = 20
