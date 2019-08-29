@@ -9,4 +9,5 @@ def outer(a):
         return b * a;
     a = nested(a)
     return a
+print(outer(10))
 
