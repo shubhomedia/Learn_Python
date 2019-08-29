@@ -19,3 +19,12 @@ def addv2(z,x=10,y=20):
 
 result = addv2(10) # only z value passed
 print(result)
+
+#scope example
+def scope(a):
+    a = a + 1
+    print(a)
+    return a
+
+scope(10)
+print(a) # a is not define because a only work on in the function
