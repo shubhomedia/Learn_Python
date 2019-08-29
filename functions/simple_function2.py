@@ -34,3 +34,12 @@ def max(x,y):
 print(max(4,7))
 z = max(8,5)
 print(z)
+
+# multiply
+def multiply(x, y):
+   return x * y
+
+a = 4
+b = 7
+operation = multiply
+print(operation(a, b))
