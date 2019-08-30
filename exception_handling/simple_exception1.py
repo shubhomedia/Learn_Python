@@ -26,7 +26,7 @@ except ValueError as e:
 #test case
 
 def TestCase(a,b):
-    assert a<b, "a is greater than b"
+    assert a < b, "a is greater than b"
 try:
     TestCase(2,1)
 except AssertionError as e:
