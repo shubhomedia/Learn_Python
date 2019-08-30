@@ -11,3 +11,14 @@ try:
     print(n)
 except ValueError:
     print("That is not a integer")
+
+# raise function
+
+a = 1
+def RaiseException(a):
+    if type(a) !=type('a'):
+        raise ValueError("This is not string")
+try:
+    RaiseException(a)
+except ValueError as e:
+    print(e)
