@@ -1,0 +1,2 @@
+#list function
+print(list(map(lambda x: x**2 + 3*x + 1,[1,2,3,4])))
