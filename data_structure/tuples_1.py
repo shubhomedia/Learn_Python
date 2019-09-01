@@ -10,3 +10,8 @@ except Exception as e:
     print(e)
 print(tup2*4)
 print(5 in tup)
+for x in ('a', 'b','c'):
+    print(x)
+def muliple_result():
+    return (1,2,'a')
+print(muliple_result())
