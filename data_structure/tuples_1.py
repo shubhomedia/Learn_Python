@@ -15,3 +15,4 @@ for x in ('a', 'b','c'):
 def muliple_result():
     return (1,2,'a')
 print(muliple_result())
+print((1,2,3) == (1,2))
