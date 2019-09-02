@@ -7,3 +7,5 @@ print(my_set1 - my_set) # Different
 
 a = my_set - my_set1
 print(a <= my_set)
+my_set.add('five')
+print(my_set)
