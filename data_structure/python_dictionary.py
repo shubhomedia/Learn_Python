@@ -8,3 +8,6 @@ try:
     print(my_dictionary[1])
 except Exception as e:
     print(e)
+
+print(my_dictionary.keys()) # print keys
+print(my_dictionary.values()) # print values
