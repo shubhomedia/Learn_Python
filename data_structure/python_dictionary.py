@@ -11,3 +11,6 @@ except Exception as e:
 
 print(my_dictionary.keys()) # print keys
 print(my_dictionary.values()) # print values
+
+my_dictionary1.clear()
+print(my_dictionary1)
