@@ -14,3 +14,4 @@ print(b.sum(axis=1))
 
 print(np.sqrt(b)) # suare root
 print(np.sqrt(a)) # suare root
+print(np.std(b)) # standard deviation
