@@ -11,3 +11,6 @@ print(a.min())# print min value
 b = np.array([(1,2,3),(3,4,5)])
 print(b.sum(axis=0))
 print(b.sum(axis=1))
+
+print(np.sqrt(b)) # suare root
+print(np.sqrt(a)) # suare root
