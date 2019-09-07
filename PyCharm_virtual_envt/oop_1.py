@@ -6,10 +6,15 @@ class Complex:
             raise Exception('Args  are not Number')
         self.real = real
         self.img = imag
+    def getReal(self):
+        return self.real
+    def getImag(self):
+        return self.img
 try:
     c = complex(2,4)
     print(c.real,c.imag)
 
 except Exception as e:
     print(e)
+
 
