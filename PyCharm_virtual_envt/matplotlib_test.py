@@ -23,3 +23,5 @@ ax2.bar([0,1,2,3],[5,10,15,5],[0.5,1,1.3,1],color=['b','r'])
 plt.show()
 
 fig4 = plt.figure() # define figure name
+ax3 = fig4.add_subplot(1,1,1) # subplot added.
+
