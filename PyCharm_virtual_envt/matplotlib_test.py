@@ -26,6 +26,8 @@ fig4 = plt.figure() # define figure name
 ax3 = fig4.add_subplot(1,1,1) # subplot added.
 ax3.set_xlim([-2,10])
 ax3.set_ylim([0,6])
-ax3.set_xlable('X')
-ax3.set_ylable('Y')
-
+ax3.set_xlabel('X')
+ax3.set_ylabel('Y')
+ax3.set_title("Lines")
+ax3.plot([-1,2,4,7,8],[5,2,3,4,3],'r')
+plt.show()
