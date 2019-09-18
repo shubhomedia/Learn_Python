@@ -17,5 +17,5 @@ else :
     step = step + np.random.randint(1,7)
 
 # Print out dice and step
-print(dice)
-print(step)
+print(dice) # print dice
+print(step) # print steps
