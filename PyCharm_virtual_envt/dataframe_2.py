@@ -28,3 +28,5 @@ result = count_entries(tweets_df, 'lang')
 
 # Print the result
 print(result)
+
+# output not work because of data is missing.
