@@ -32,3 +32,5 @@ result1 = count_entries(tweets_df, 'lang')
 
 # Print result1
 print(result1)
+
+# twitter data not avialble
