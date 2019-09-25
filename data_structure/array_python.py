@@ -18,3 +18,4 @@ for x in cars:
     if(x == "Ford"):
         break
     print(x)
+## loop on array
