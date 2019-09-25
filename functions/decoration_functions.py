@@ -10,3 +10,8 @@ def print_text():
 
 decorated = decor(print_text)
 decorated()
+'''
+============
+Hello world!
+============
+'''
