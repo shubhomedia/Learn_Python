@@ -13,3 +13,8 @@ print("\n")
 cars = ["Volvo", "BMW", "Ford", "Mazda"]
 for x in cars:
     print(x)
+
+for x in cars:
+    if(x == "Ford"):
+        break
+    print(x)
