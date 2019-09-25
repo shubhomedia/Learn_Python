@@ -7,3 +7,9 @@ name.remove('jamal')
 print(name)
 for x in name:
     print(x)
+
+print("\n")
+
+cars = ["Volvo", "BMW", "Ford", "Mazda"]
+for x in cars:
+    print(x)
