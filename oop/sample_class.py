@@ -8,3 +8,4 @@ rover = Cat("dog-colored", 4)
 stumpy = Cat("brown", 3)
 
 print(felix.color)
+# output : ginger
