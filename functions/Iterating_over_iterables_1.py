@@ -14,3 +14,14 @@ print(next(superspeed))
 print(next(superspeed))
 print(next(superspeed))
 print(next(superspeed))
+'''
+#output
+jay garrick
+barry allen
+wally west
+bart allen
+jay garrick
+barry allen
+wally west
+bart allen
+'''
