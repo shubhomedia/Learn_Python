@@ -9,3 +9,5 @@ class Dog:
 fido = Dog("Fido", "brown")
 print(fido.name)
 fido.bark()
+# Fido
+# Woof!
