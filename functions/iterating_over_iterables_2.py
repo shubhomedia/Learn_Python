@@ -20,3 +20,17 @@ print(next(googol))
 print(next(googol))
 print(next(googol))
 print(next(googol))
+'''
+#output
+0
+1
+2
+0
+1
+2
+0
+1
+2
+3
+4
+'''
