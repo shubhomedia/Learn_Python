@@ -18,3 +18,16 @@ while roll_again == "yes" or roll_again == "y":
         N=int(input("enter the number of dice you want to roll?"))
     else:
         print ("bye!!")
+
+'''
+# output
+enter the minimum number of the die1
+enter the maximum number of the die5
+enter the number of dice you want to roll?2
+Rolling the dices...
+The values are....
+5
+1
+Roll the dices again?y
+enter the number of dice you want to roll?
+'''
