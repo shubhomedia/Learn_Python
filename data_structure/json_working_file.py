@@ -18,3 +18,5 @@ y = json.dumps(x)
 
 # the result is a JSON string:
 print(y)
+
+print(json.dumps(x, indent=4))
