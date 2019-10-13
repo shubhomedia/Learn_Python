@@ -20,3 +20,5 @@ y = json.dumps(x)
 print(y)
 
 print(json.dumps(x, indent=4))
+# sort the result alphabetically by keys:
+print(json.dumps(x, indent=4, sort_keys=True))
