@@ -5,5 +5,6 @@ education1 = "S.S.C"
 education2 = "Diploma In Engineering"
 tag1 ="Android Application Developer"
 tag2 ="Mobile Application Developer"
+tag3 ="Data Analyst"
 
 print(name,"\n",id,"\n",dateofbirth,"\n")
