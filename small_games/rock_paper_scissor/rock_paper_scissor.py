@@ -16,3 +16,5 @@ while True:
     # then it return True value
 
     # looping until user enter invalid input
+    while choice > 3 or choice < 1:
+        choice = int(input("enter valid input: "))
