@@ -49,3 +49,5 @@ while True:
             else:
                 comp_choice_name = 'scissor'
             print("Computer choice is: " + comp_choice_name)
+
+            print(choice_name + " V/s " + comp_choice_name)
