@@ -48,3 +48,4 @@ while True:
                 comp_choice_name = 'paper'
             else:
                 comp_choice_name = 'scissor'
+            print("Computer choice is: " + comp_choice_name)
