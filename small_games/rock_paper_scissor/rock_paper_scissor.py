@@ -30,3 +30,13 @@ while True:
         # print user choice
         print("user choice is: " + choice_name)
         print("\nNow its computer turn.......")
+
+        # Computer chooses randomly any number
+        # among 1 , 2 and 3. Using randint method
+        # of random module
+        comp_choice = random.randint(1, 3)
+
+        # looping until comp_choice value
+        # is equal to the choice value
+        while comp_choice == choice:
+            comp_choice = random.randint(1, 3)
