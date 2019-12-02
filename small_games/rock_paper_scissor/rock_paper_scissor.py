@@ -26,3 +26,7 @@ while True:
             choice_name = 'paper'
         else:
             choice_name = 'scissor'
+
+        # print user choice
+        print("user choice is: " + choice_name)
+        print("\nNow its computer turn.......")
