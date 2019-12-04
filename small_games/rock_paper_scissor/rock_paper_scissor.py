@@ -64,3 +64,4 @@ while True:
             else:
                 print("scissor wins =>", end="")
                 result = "scissor"
+            # Printing either user or computer wins
