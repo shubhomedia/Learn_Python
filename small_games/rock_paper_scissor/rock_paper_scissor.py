@@ -65,3 +65,11 @@ while True:
                 print("scissor wins =>", end="")
                 result = "scissor"
             # Printing either user or computer wins
+
+            if result == choice_name:
+                print("<== User wins ==>")
+            else:
+                print("<== Computer wins ==>")
+
+            print("Do you want to play again? (Y/N)")
+            ans = input()
