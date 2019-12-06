@@ -73,3 +73,10 @@ while True:
 
             print("Do you want to play again? (Y/N)")
             ans = input()
+            # if user input n or N then condition is True
+            if ans == 'n' or ans == 'N':
+                break
+
+        # after coming out of the while loop
+        # we print thanks for playing
+        print("\nThanks for playing")
