@@ -10,3 +10,4 @@ score = 0
 
 # the game time left, initially 30 seconds.
 timeleft = 30
+# function that will start the game.
