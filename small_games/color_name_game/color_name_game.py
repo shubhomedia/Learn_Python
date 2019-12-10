@@ -39,3 +39,7 @@ def nextColour():
         e.delete(0, tkinter.END)
 
         random.shuffle(colours)
+
+        # change the colour to type, by changing the
+        # text _and_ the colour to a random colour value
+        label.config(fg=str(colours[1]), text=str(colours[0]))
