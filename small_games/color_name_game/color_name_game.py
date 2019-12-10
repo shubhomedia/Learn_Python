@@ -33,3 +33,5 @@ def nextColour():
 
         # if the colour typed is equal
         # to the colour of the text
+        if e.get().lower() == colours[1].lower():
+            score += 1
