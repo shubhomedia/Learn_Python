@@ -35,3 +35,5 @@ def nextColour():
         # to the colour of the text
         if e.get().lower() == colours[1].lower():
             score += 1
+        # clear the text entry box.
+        e.delete(0, tkinter.END)
