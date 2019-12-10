@@ -22,3 +22,7 @@ def startGame(event):
 # Function to choose and
 # display the next colour.
 def nextColour():
+    # use the globally declared 'score'
+    # and 'play' variables above.
+    global score
+    global timeleft
