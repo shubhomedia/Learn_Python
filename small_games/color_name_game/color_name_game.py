@@ -28,3 +28,8 @@ def nextColour():
     global timeleft
     # if a game is currently in play
     if timeleft > 0:
+        # make the text entry box active.
+        e.focus_set()
+
+        # if the colour typed is equal
+        # to the colour of the text
