@@ -37,3 +37,5 @@ def nextColour():
             score += 1
         # clear the text entry box.
         e.delete(0, tkinter.END)
+
+        random.shuffle(colours)
