@@ -43,3 +43,6 @@ def nextColour():
         # change the colour to type, by changing the
         # text _and_ the colour to a random colour value
         label.config(fg=str(colours[1]), text=str(colours[0]))
+
+        # update the score.
+        scoreLabel.config(text="Score: " + str(score))
