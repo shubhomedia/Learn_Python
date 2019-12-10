@@ -19,3 +19,5 @@ def startGame(event):
         # run the function to
     # choose the next colour.
     nextColour()
+# Function to choose and
+# display the next colour.
