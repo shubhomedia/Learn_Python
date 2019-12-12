@@ -63,3 +63,9 @@ def countdown():
 
         # run the function again after 1 second.
         timeLabel.after(1000, countdown)
+
+
+# Driver Code
+
+# create a GUI window
+root = tkinter.Tk()
