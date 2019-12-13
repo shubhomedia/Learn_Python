@@ -69,3 +69,6 @@ def countdown():
 
 # create a GUI window
 root = tkinter.Tk()
+
+# set the title
+root.title("COLORGAME")
