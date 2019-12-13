@@ -72,3 +72,6 @@ root = tkinter.Tk()
 
 # set the title
 root.title("COLORGAME")
+
+# set the size
+root.geometry("375x200")
