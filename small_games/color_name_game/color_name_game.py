@@ -86,3 +86,7 @@ instructions.pack()
 scoreLabel = tkinter.Label(root, text = "Press enter to start",
                                       font = ('Helvetica', 12))
 scoreLabel.pack()
+
+# add a time left label
+timeLabel = tkinter.Label(root, text = "Time left: " +
+              str(timeleft), font = ('Helvetica', 12))
