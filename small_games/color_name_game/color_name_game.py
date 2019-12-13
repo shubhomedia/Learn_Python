@@ -81,3 +81,8 @@ instructions = tkinter.Label(root, text = "Type in the colour"
                         "of the words, and not the word text!",
                                       font = ('Helvetica', 12))
 instructions.pack()
+
+# add a score label
+scoreLabel = tkinter.Label(root, text = "Press enter to start",
+                                      font = ('Helvetica', 12))
+scoreLabel.pack()
