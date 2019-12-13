@@ -92,3 +92,21 @@ timeLabel = tkinter.Label(root, text = "Time left: " +
               str(timeleft), font = ('Helvetica', 12))
 
 timeLabel.pack()
+# add a label for displaying the colours
+label = tkinter.Label(root, font=('Helvetica', 60))
+label.pack()
+
+# add a text entry box for
+# typing in colours
+e = tkinter.Entry(root)
+
+# run the 'startGame' function
+# when the enter key is pressed
+root.bind('<Return>', startGame)
+e.pack()
+
+# set focus on the entry box
+e.focus_set()
+
+# start the GUI
+root.mainloop()
