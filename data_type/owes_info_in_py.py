@@ -13,3 +13,5 @@ print(name,"\n",id,"\n",dateofbirth,"\n")
 
 new_tag = name + blank_space + id + blank_space + education2
 print(new_tag)
+multiple_tag = (new_tag + blank_space)
+print(multiple_tag)
