@@ -15,3 +15,6 @@ mix = text[start_point+1:endpoint+1]
 new_data = float(mix)
 print(new_data)
 
+# New In Operation
+x = 'n' in fruit
+print(x)
