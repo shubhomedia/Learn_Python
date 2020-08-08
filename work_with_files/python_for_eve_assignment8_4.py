@@ -4,3 +4,4 @@ lst = list()
 for line in fh:
     print(line.rstrip())
 
+
