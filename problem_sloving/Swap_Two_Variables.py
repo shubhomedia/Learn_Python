@@ -9,3 +9,9 @@ print("y =", y)
 x = x + y
 y = x - y
 x = x - y
+
+#Multiplication and Division
+
+x = x * y
+y = x / y
+x = x / y
