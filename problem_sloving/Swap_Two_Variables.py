@@ -15,3 +15,9 @@ x = x - y
 x = x * y
 y = x / y
 x = x / y
+
+#XOR swap
+
+x = x ^ y
+y = x ^ y
+x = x ^ y
